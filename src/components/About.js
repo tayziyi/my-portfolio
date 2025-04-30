@@ -10,9 +10,11 @@ const About = () => {
         <div className="about-text">
           <h2>About Me</h2>
           <p>
-            I'm an NUS Y3 undergraduate student.
-            I have a strong interest in AI/ML and Data Analytics, and I love exploring how technology
-            can solve real-world problems!
+            I'm a Year 3 NUS Computer Science undergraduate student.<br />
+            I have a strong interest in AI/ML and Data Analytics, and I love exploring how technology and numbers
+            work together to solve real-world problems!<br />
+            <br />
+            Outside of the technoloy world, I seriously enjoy team sports like badminton and basketball.
           </p>
         </div>
       </div>
