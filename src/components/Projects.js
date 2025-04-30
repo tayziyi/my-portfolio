@@ -3,14 +3,17 @@ import './Projects.css';
 import nusfoodieLogo from '../assets/nusfoodie.png';
 import ultimatetictactoeLogo from '../assets/ultimate.png';
 import personalLogo from '../assets/personal.png';
+import alibabaLogo from '../assets/alibaba.png';
+import captchaLogo from '../assets/captcha.png';
+import stocksLogo from '../assets/stocks.png'
 
 const projectList = [
   {
-    title: 'Personal Website',
-    description: 'React-based personal website to showcase my education journey, experiences, projects and skills.',
+    title: 'Alibaba International Global E-Commerce Challenge',
+    description: 'Proposed scalable solutions for Lazada and AliExpress using NLP and Computer Vision techniques. Achieved Top 10 Global Finalist.',
     link: 'https://github.com/tayziyi/my-portfolio',
-    tags: ['React', 'CSS', 'Javascript'],
-    image: personalLogo, 
+    tags: ['React', 'CSS', 'HTML', 'SQLite', 'Tensorflow', 'Scikit-Learn'],
+    image: alibabaLogo, 
   },
   {
     title: 'NUSFoodie',
@@ -25,7 +28,28 @@ const projectList = [
     link: '#',
     tags: ['Python'],
     image: ultimatetictactoeLogo,
-  }
+  },
+  {
+    title: 'Captcha Recognition',
+    description: 'A CNN model designed to solve captchas. Some techniques used to increase accuracy were gaussian blur and thresholding. Final prediction accuracy: 85%.',
+    link: '#',
+    tags: ['Pandas', 'Numpy', 'CV2', 'Pytorch'],
+    image: captchaLogo,
+  },
+  {
+    title: 'Analysis and Modelling of Stock Prices',
+    description: 'Big data analysis of top 7 stocks. Prediction of future prices using Linear Regression. Feature selection implemented through Grid Search. ',
+    link: '#',
+    tags: ['PySpark'],
+    image: stocksLogo, 
+  },
+  {
+    title: 'Personal Website',
+    description: 'React-based personal website to showcase my education journey, experiences, projects and skills.',
+    link: 'https://github.com/tayziyi/my-portfolio',
+    tags: ['React', 'CSS', 'Javascript'],
+    image: personalLogo, 
+  },
 ];
 
 const Projects = () => {
