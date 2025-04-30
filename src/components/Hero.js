@@ -4,16 +4,16 @@ import datascienceicon from '../assets/datascienceicon.png';
 
 const Hero = () => {
   const title = "Hello, I'm Zi Yi Tay";
-  const subtitle = "Data Scientist • Data Analyst • Machine Learning Engineer";
+  const subtitle = "Aspiring Data Analyst & Scientist";
 
-  const animateWords = (text, baseClass, delayStep = 0.2) =>
-    text.split(' ').map((word, i) => (
+  const animateLetters = (text, baseClass, delayStep = 0.08) =>
+    Array.from(text).map((char, i) => (
       <span
         key={i}
-        className={`${baseClass} word`}
+        className={`${baseClass} letter`}
         style={{ animationDelay: `${i * delayStep}s` }}
       >
-        {word}&nbsp;
+        {char === ' ' ? '\u00A0' : char}
       </span>
     ));
 
@@ -22,19 +22,19 @@ const Hero = () => {
       <div className="hero-container">
         <div className="hero-content">
           <h1 className="hero-title">
-            {animateWords(title, 'hero-title')}
+            {animateLetters(title, 'hero-title')}
           </h1>
           <p className="hero-subtitle">
-            {animateWords(subtitle, 'hero-subtitle', 0.1)}
+            {animateLetters(subtitle, 'hero-subtitle')}
           </p>
           <a
             href="#projects"
             className="cta-button fade-seq"
             style={{
-              animationDelay: `${title.split(' ').length * 0.2 + 0.5}s`,
+              animationDelay: `${title.length * 0.05 + 0.5}s`,
             }}
           >
-            View My Work
+            View My Projects
           </a>
         </div>
         <div className="hero-image">

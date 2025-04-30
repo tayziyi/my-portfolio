@@ -14,7 +14,7 @@ const About = () => {
             I have a strong interest in AI/ML and Data Analytics, and I love exploring how technology and numbers
             work together to solve real-world problems!<br />
             <br />
-            Outside of the technoloy world, I seriously enjoy team sports like badminton and basketball.
+            Outside of the technology world, I genuinely enjoy team sports like badminton and basketball.
           </p>
         </div>
       </div>

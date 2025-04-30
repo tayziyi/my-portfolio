@@ -8,7 +8,7 @@ const educationData = [
     school: 'National University of Singapore (NUS)',
     degree: 'Bachelor of Computing in Computer Science (Honours)',
     year: '2022 - 2026',
-    description: 'Relevant Modules: Data structures (CS2040), Programming Methodology I & II (CS2030), Introduction to AI/ML (CS2109), Computer Vision (CS4243), Calculus for Computing (MA1521), Linear Algebra (MA2001), Probability and Statistics (ST2334), Computer Networks (CS2105), Algorithm Analysis (CS3230, Big Data Systems for Data Science (CS4225)'
+    description: 'Relevant Modules: Data Structures (CS2040), Programming Methodology I & II (CS2030), Introduction to AI/ML (CS2109), Operating Systems (CS2106), Computer Vision (CS4243), Computer Networks (CS2105), Algorithm Analysis (CS3230), Big Data Systems for Data Science (CS4225), Calculus for Computing (MA1521), Linear Algebra (MA2001), Probability and Statistics (ST2334)'
   },
   {
     school: 'Hanyang University (Winter Exchange)',
