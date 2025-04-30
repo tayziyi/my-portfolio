@@ -38,8 +38,8 @@ const projectList = [
   },
   {
     title: 'Analysis and Modelling of Stock Prices',
-    description: 'Big data analysis of top 7 stocks. Prediction of future prices using Linear Regression. Feature selection implemented through Grid Search. ',
-    link: '#',
+    description: 'Big data analysis of top 7 stocks. Prediction of future prices using Linear Regression. Feature selection implemented to reduce MSE Loss. ',
+    link: 'https://colab.research.google.com/drive/1Zg2ngLOa17TkTESQTqdPRCRkToynZeF_#scrollTo=Z2kGijdiREMQ',
     tags: ['PySpark'],
     image: stocksLogo, 
   },

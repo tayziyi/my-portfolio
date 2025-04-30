@@ -36,6 +36,17 @@ const Hero = () => {
           >
             View My Projects
           </a>
+          <a
+            href="/ZiYi_Tay_CV.pdf"
+            className="cta-button fade-seq"
+            download
+            style={{
+              animationDelay: `${title.length * 0.05 + 0.8}s`,
+              marginLeft: '20px',
+            }}
+          >
+            Download CV
+          </a>
         </div>
         <div className="hero-image">
           <img src={datascienceicon} alt="Data Science Icon" className="hero-icon" />
