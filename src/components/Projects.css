@@ -1,0 +1,14 @@
+.projects {
+    background-color: #f0f0f0;
+    padding: 60px 20px;
+  }
+  
+  .project-card {
+    background: white;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
