@@ -57,6 +57,12 @@
   transition: background-color 0.3s ease;
 }
 
+.cta-button-group {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
 .cta-button:hover {
   background-color: #f7f7f7;
 }

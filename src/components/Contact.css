@@ -1,6 +1,6 @@
 .contact {
   background-color: #f9f9f9;
-  padding: 60px 20px;
+  padding: 40px 20px;
   text-align: center;
   color: #333;
 }
@@ -14,8 +14,8 @@
 .contact-items {
   display: flex;
   justify-content: center;
-  gap: 40px; /* spacing between each contact item */
-  flex-wrap: wrap; /* allows wrap on smaller screens */
+  gap: 40px; 
+  flex-wrap: wrap; 
   margin-top: 20px;
 }
 

@@ -37,7 +37,7 @@ const Hero = () => {
             View My Projects
           </a>
           <a
-            href="/ZiYi_Tay_CV.pdf"
+            href="/Resume%20-%20ZiYiTay.pdf"
             className="cta-button fade-seq"
             download
             style={{

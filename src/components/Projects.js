@@ -11,7 +11,7 @@ const projectList = [
   {
     title: 'Alibaba International Global E-Commerce Challenge',
     description: 'Proposed scalable solutions for Lazada and AliExpress using NLP and Computer Vision techniques. Achieved Top 10 Global Finalist.',
-    link: 'https://github.com/tayziyi/my-portfolio',
+    link: '#',
     tags: ['React', 'CSS', 'HTML', 'SQLite', 'Tensorflow', 'Scikit-Learn'],
     image: alibabaLogo, 
   },
@@ -25,14 +25,14 @@ const projectList = [
   {
     title: 'Ultimate Tic Tac Toe Agent',
     description: 'An AI agent created with minimax algorithm and alpha-beta pruning for optimal decision-making. Designed with strong heuristics evaluation function.',
-    link: '#',
+    link: 'https://github.com/tayziyi/Ultimate-Tic-Tac-Toe-Agent',
     tags: ['Python'],
     image: ultimatetictactoeLogo,
   },
   {
     title: 'Captcha Recognition',
     description: 'A CNN model designed to solve captchas. Some techniques used to increase accuracy were gaussian blur and thresholding. Final prediction accuracy: 85%.',
-    link: '#',
+    link: 'https://github.com/tayziyi/Captcha-Recognition',
     tags: ['Pandas', 'Numpy', 'CV2', 'Pytorch'],
     image: captchaLogo,
   },

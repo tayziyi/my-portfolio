@@ -19,7 +19,7 @@ const workData = [
         company: 'Actxa',
         period: 'May 2024 – Dec 2024',
         description:
-            'Assisted in conducting public healthcare research and development within the digital health and wellness domain.\nPiloted a Research and Development on Deep Learning models to improve the current metrics provided by traditional ML methods.\nDeveloped data-driven solutions using statistical modeling, and machine learning techniques.\nDocumented research activities, experiments, and modeling findings.',
+            'Assisted in conducting public healthcare Research and Development within the digital health and wellness domain.\nPiloted a Research and Development on Deep Learning models to improve the current metrics provided by traditional machine learning (ML) methods.\nDeveloped data-driven solutions using statistical modeling and traditional ML techniques.\nDocumented research activities, experiments, and modeling findings.\n Built a Python-based script for separating good quality signals from the whole dataset with precision of 90%.',
         logo: actxaLogo,
     },
 ];
