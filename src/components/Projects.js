@@ -13,7 +13,7 @@ const projectList = [
     description: 'Proposed scalable solutions for Lazada and AliExpress using NLP and Computer Vision techniques. Achieved Top 10 Global Finalist.',
     link: '#',
     tags: ['React', 'CSS', 'HTML', 'SQLite', 'Tensorflow', 'Scikit-Learn'],
-    image: alibabaLogo, 
+    image: alibabaLogo,
   },
   {
     title: 'NUSFoodie',
@@ -41,14 +41,14 @@ const projectList = [
     description: 'Big data analysis of top 7 stocks. Prediction of future prices using Linear Regression. Feature selection implemented to reduce MSE Loss. ',
     link: 'https://colab.research.google.com/drive/1Zg2ngLOa17TkTESQTqdPRCRkToynZeF_#scrollTo=Z2kGijdiREMQ',
     tags: ['PySpark'],
-    image: stocksLogo, 
+    image: stocksLogo,
   },
   {
     title: 'Personal Website',
     description: 'React-based personal website to showcase my education journey, experiences, projects and skills.',
     link: 'https://github.com/tayziyi/my-portfolio',
     tags: ['React', 'CSS', 'Javascript'],
-    image: personalLogo, 
+    image: personalLogo,
   },
 ];
 
@@ -70,7 +70,9 @@ const Projects = () => {
                   <span className="tag" key={i}>{tag}</span>
                 ))}
               </div>
-              <a href={proj.link} target="_blank" rel="noopener noreferrer">View Project</a>
+              {proj.link !== '#' && (
+                <a href={proj.link} target="_blank" rel="noopener noreferrer">View Project</a>
+              )}
             </div>
           </div>
         ))}

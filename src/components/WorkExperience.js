@@ -4,14 +4,29 @@ import { FaBriefcase } from 'react-icons/fa';
 import { motion } from 'framer-motion';
 import tiktokLogo from '../assets/tiktok-logo.png';
 import actxaLogo from '../assets/actxa-logo.png';
+import changiLogo from '../assets/changiairportgroup_logo.jpeg';
 
 const workData = [
     {
-        role: 'Auto Moderation Operations Intern',
-        company: 'Tiktok',
-        period: 'May 2025 – Present',
+        role: 'AI/ML Intern',
+        company: 'Changi Airport Group',
+        period: 'Jan 2026 – Apr 2026',
         description:
-            'Analyze ad risk auto moderation models by collecting, statistically analyzing data to compile analysis reports. \nConduct daily statistical analysis for auto moderation models risk operations, with in-depth analysis of abnormal cases. \nSupport data needs for the business team and internal team requirements.',
+            '• Built automated ML monitoring pipelines on AWS to track model performance and detect data drift\n' +
+            '• Engineered data pipelines integrating flight data to train prediction models achieving 87% accuracy\n' +
+            '• Developed LLM applications including an in-house chatbot and feedback generator using LangChain\n' +
+            '• Built RAG pipelines integrating vector databases with LLMs for context-aware responses',
+        logo: changiLogo,
+    },
+    {
+        role: 'Risk Analyst Intern',
+        company: 'ByteDance (TikTok)',
+        period: 'May 2025 – Sep 2025',
+        description:
+            '• Analyzed performance of ad risk auto-moderation models using statistical methods and internal dashboards\n' +
+            '• Conducted in-depth root cause analysis (RCA) on abnormal cases such as model leakages and overkills\n' +
+            '• Supported Blue Team operations by identifying risks and enabling early threat detection\n' +
+            '• Implemented prompt engineering strategies for LLMs to improve moderation of violative ad content',
         logo: tiktokLogo,
     },
     {
@@ -19,7 +34,9 @@ const workData = [
         company: 'Actxa',
         period: 'May 2024 – Dec 2024',
         description:
-            'Assisted in conducting public healthcare Research and Development within the digital health and wellness domain.\nPiloted a Research and Development on Deep Learning models to improve the current metrics provided by traditional machine learning (ML) methods.\nDeveloped data-driven solutions using statistical modeling and traditional ML techniques.\nDocumented research activities, experiments, and modeling findings.\n Built a Python-based script for separating good quality signals from the whole dataset with precision of 90%.',
+            '• Led R&D on deep learning models to improve performance beyond traditional ML benchmarks\n' +
+            '• Built feature extraction and engineering pipelines for physiological signals in blood glucose prediction\n' +
+            '• Developed Python scripts to filter high-quality signals, achieving 90% precision',
         logo: actxaLogo,
     },
 ];

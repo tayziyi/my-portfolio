@@ -6,15 +6,15 @@ import { motion } from 'framer-motion';
 const educationData = [
   {
     school: 'National University of Singapore (NUS)',
-    degree: 'Bachelor of Computing in Computer Science (Honours)',
+    degree: 'Bachelor of Computing in Computer Science (Honors)',
     year: '2022 - 2026',
-    description: 'Relevant Modules: Data Structures (CS2040), Programming Methodology I & II (CS2030), Introduction to AI/ML (CS2109), Operating Systems (CS2106), Computer Vision (CS4243), Computer Networks (CS2105), Algorithm Analysis (CS3230), Big Data Systems for Data Science (CS4225), Calculus for Computing (MA1521), Linear Algebra (MA2001), Probability and Statistics (ST2334)'
+    description: 'Specialisation Track in Artificial Intelligence/Machine Learning (AI/ML) and Database Systems'
   },
   {
     school: 'Hanyang University (Winter Exchange)',
     degree: '',
     year: '2024 - 2025',
-    description: 'Description: Went on student exchange program to Hanyang University in Korea (Winter 2024). '
+    description: 'Description: Went on student exchange program to Hanyang University in Korea (Winter 2024) '
   },
   {
     school: 'Nanyang Junior College (NYJC)',
@@ -22,13 +22,6 @@ const educationData = [
     year: '2018 - 2019',
     description: 'Relevant Subjects: H3 Mathematics, H2 Mathematics, H2 Physics, H2 Chemistry, H1 Economics',
     award: 'Awards: Honor Roll for 2019 Block Test and Preliminary Exam'
-  },
-  {
-    school: 'Bowen Secondary School',
-    degree: 'GCE O-Levels: 5 Points',
-    year: '2014 - 2017',
-    description: 'Relevant Subjects: Physics, Chemistry, Biology, Combined Humanities (SS/Geog), A Mathematics',
-    award: 'Awards: Top in level for Mathematics'
   },
 ];
 

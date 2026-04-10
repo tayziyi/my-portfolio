@@ -1,10 +1,10 @@
 import React from 'react';
 import './Hero.css';
-import datascienceicon from '../assets/datascienceicon.png';
+import heroicon from '../assets/datascientist.jpeg';
 
 const Hero = () => {
   const title = "Hello, I'm Zi Yi Tay";
-  const subtitle = "Aspiring Data Analyst & Scientist";
+  const subtitle = "Aspiring Data Scientist/AI Engineer";
 
   const animateLetters = (text, baseClass, delayStep = 0.08) =>
     Array.from(text).map((char, i) => (
@@ -36,7 +36,7 @@ const Hero = () => {
           >
             View My Projects
           </a>
-          <a
+          {/* <a
             href="/Resume%20-%20ZiYiTay.pdf"
             className="cta-button fade-seq"
             download
@@ -46,10 +46,10 @@ const Hero = () => {
             }}
           >
             Download CV
-          </a>
+          </a> */}
         </div>
         <div className="hero-image">
-          <img src={datascienceicon} alt="Data Science Icon" className="hero-icon" />
+          <img src={heroicon} alt="Data Science Icon" className="hero-icon" />
         </div>
       </div>
     </section>
